@@ -86,7 +86,7 @@ body{
 #hero{
     background-image: url(./img/slider01.jpg);
     height: 90vh;
-    width: 94%;
+    /* width: 94%; */
     background-size: cover;
     background-position: top 25% right 0;
     padding: 0 0 0 80px;
@@ -213,7 +213,7 @@ button.normal{
 #product1 .pro-container{
     display: flex;
     justify-content: flex-start;
-    column-gap: 40px;
+    column-gap: 30px;
     padding-top: 20px;
     flex-wrap: wrap;    /* to show product cards in next line */
 }
@@ -318,13 +318,19 @@ button.normal{
     flex-wrap: wrap;
 }
 
+#sm-banner .banner-box h2{
+    color: #fff;
+    font-size: 25px;
+}
+
 #sm-banner .banner-box{
     display: flex;
     flex-direction: column;
     justify-content: center; /* After adding background image it helps text content to align in center */
     align-items: flex-start;
-    background-image: url(./img/banner/b17.jpg);
-    width: 530px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/banner/b17.jpg);
+    /* background-image: url(./img/banner/b17.jpg); */
+    width: 520px;
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -332,7 +338,8 @@ button.normal{
 }
 
 #sm-banner .banner-box2{
-    background-image: url(./img/banner/b10.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/banner/b10.jpg);
+    /* background-image: url(./img/banner/b10.jpg); */
 }
 
 #sm-banner h4{
@@ -385,8 +392,8 @@ button.white{
     flex-direction: column;
     justify-content: center; /* After adding background image it helps text content to align in center */
     align-items: flex-start;
-    background-image: url(./img/banner/b7.jpg);
-    min-width: 29%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/banner/b7.jpg);
+    min-width: 25%;
     height: 30vh;
     background-size: cover;
     background-position: center;
@@ -396,12 +403,14 @@ button.white{
 }
 
 #banner3 .banner-box2{
-    background-image: url(./img/banner/b4.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/banner/b4.jpg);
+    /* background-image: url(./img/banner/b4.jpg); */
     border-radius: 15px;  
 }
 
 #banner3 .banner-box3{
-    background-image: url(./img/banner/b18.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/banner/b18.jpg);
+    /* background-image: url(./img/banner/b18.jpg); */
     border-radius: 15px;
 }
 
@@ -551,7 +560,7 @@ footer .copyright{
     /* filter: brightness(50%); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/slider02men.jpg);
     background-position: center;
-    width: 100%;
+    /* width: 100%; */
     height: 40vh;
     background-size: cover;
     display: flex;
